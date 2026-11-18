@@ -63,4 +63,4 @@ Or with pip:
 pip install -r requirements.txt
 ```
 
-The notebooks use absolute Windows paths to the original data folder (`C:\Users\RUTHVIK REDDY\lulc_project\...`). Change those paths to your own data location before running them.
+The notebooks use absolute Windows paths to the original data folder (`C:\Users\USER NAME\lulc_project\...`). Change those paths to your own data location before running them.
