@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+lulc/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and large outputs (not kept in this repo)
+data/
+*.tif
+*.tif.aux.xml
+*.TIF
+*.nc
+*.grib
+*.idx
+*.gpkg
+*.geojson
+*.qgz
+*.PDF
+*.pdf
+*_MTL.txt
+*_MTL.xml
+*_ANG.txt
+Pixel trend results/

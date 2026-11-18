@@ -1,0 +1,14 @@
+# Packages used by the notebooks and scripts (pip install -r requirements.txt)
+ipykernel
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+pillow
+xarray
+netCDF4
+cfgrib
+pymannkendall
+rasterio
+geopandas

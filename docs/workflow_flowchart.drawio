@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="Pl-nmROhdJypczr3EGEY">
+    <mxGraphModel dx="1378" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-36" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Landsat 5/7/8/9" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-18" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data acquisition" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-19" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Image Selection&lt;div&gt;(Cloud Cover &amp;lt;10%,&lt;/div&gt;&lt;div&gt;b/w Jan &amp;amp; Feb)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-20" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Study Area Clipping&lt;div&gt;(Mine Boundaries according to TGRAC)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-21" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RED + NIR Band selection/extraction" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-22" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="NDVI Calculation&lt;div&gt;(Buffer zone wise)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-23" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-24" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Annual NDVI Compositing" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-25" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="xZ6KHvkquTOdfR41SV2t-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Spatial Analysis" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-26" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Temporal Analysis" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-28" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mean NDVI&lt;div&gt;Spatial Pattern&lt;/div&gt;&lt;div&gt;Variability&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-29" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mann-Kendall&lt;div&gt;Sen&#39;s Slope&lt;/div&gt;&lt;div&gt;NDVI anomalies&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-30" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="xZ6KHvkquTOdfR41SV2t-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-31" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="xZ6KHvkquTOdfR41SV2t-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Vegetation Change" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-32" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mining Activity" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-33" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Monsoon Variability" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-34" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="xZ6KHvkquTOdfR41SV2t-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Statistical analysis" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-35" edge="1" parent="1" source="xZ6KHvkquTOdfR41SV2t-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xZ6KHvkquTOdfR41SV2t-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mining and Monsoon Influence on Vegetation" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6KHvkquTOdfR41SV2t-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Dominant Driver Assessment" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="1240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
